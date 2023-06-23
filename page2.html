@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Гайд Dota 2</title>
+<link rel="icon" type="image/png" href="img/icons8-dota-2-100 (1).png">
+  <style>
+    body {
+      background-image: url("img/news fon.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      color: #FFFFFF;
+      font-family: "Arial", sans-serif;
+    }
+
+    /* Animation styles */
+    .image-click {
+      transition: transform 0.3s;
+    }
+
+    .image-click:hover {
+      transform: scale(1.2);
+    }
+
+    .image-click:active {
+      transform: scale(0.8);
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      position: relative;
+    }
+
+    .overlay {
+      position: absolute;
+      top: -10px;
+      left: 0;
+      width: 100%;
+      height: 159.8%;
+      background-color: rgba(0, 0, 0, 0.8);
+      z-index: -1;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-right: 10px;
+      padding: 10px 20px;
+      background-color: #FFFFFF;
+      color: #000000;
+      text-decoration: none;
+      border-radius: 20px;
+      flex: 1;
+      text-align: center;
+      font-weight: bold;
+      transition: background-color 0.3s, transform 0.3s;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .button:hover {
+      background-color: #CCCCCC;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .button:active {
+      background-color: #AAAAAA;
+      transform: scale(0.95);
+      box-shadow: none;
+    }
+
+    .heading {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    @media only screen and (max-width: 800px) {
+      .container {
+        padding: 10px;
+      }
+
+      .image-click {
+        transition: transform 0.3s;
+      }
+
+      .image-click:hover {
+        transform: scale(1.2);
+      }
+
+      .image-click:active {
+        transform: scale(0.8);
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+    <div class="overlay"></div>
+    <div class="button-container">
+      <a class="button" href="index.html">Головна</a>
+      <a class="button" href="page2.html">Герої</a>
+      <a class="button" href="news.html">Новини</a>
+    </div>
+
+    <div style="margin: 80px; text-align: center;">
+  <h1><img src="img/str.png" alt="Опис зображення" style="width: 30px; height: auto;"> Сила</h1>
+  <a href="Axe.html"><img src="img/portrait.jpg" alt="Axe" width="100" height="100" class="image-click" title="Axe"></a>
+  &nbsp;
+  <a href="Pudge.html"><img src="img/pudge/pudge portrait.jpg" alt="Pudge" width="100" height="100" class="image-click" title="Pudge"></a>
+  &nbsp;
+  <a href="Sven.html"><img src="img/sven/portrait.jpg" alt="Sven" width="100" height="100" class="image-click" title="Sven"></a>
+  &nbsp;
+  <a href="Huskar.html"><img src="img/Huskar/portrait (1).jpg" alt="Huskar" width="100" height="100" class="image-click" title="Huskar"></a>
+  &nbsp;
+</div>
+
+<div style="margin: 80px; text-align: center;">
+  <h1><img src="img/spritnist.png" alt="Опис зображення" style="width: 30px; height: auto;"> Спритність</h1>
+  <a href="bounty hunter.html"><img src="img/Bounty Hunter/portrait.jpg" alt="Bounty Hunter" width="100" height="100" class="image-click" title="Bounty Hunter"></a>
+  &nbsp;
+  <a href="Clinkz.html"><img src="img/Clinkz/portrait (1).jpg" alt="Clinkz" width="100" height="100" class="image-click" title="Clinkz"></a>
+  &nbsp;
+  <a href="Phantom Assassin.html"><img src="img/Phantom Assasin/portrait.jpg" alt="Phantom Assassin" width="100" height="100" class="image-click" title="Phantom Assassin"></a>
+  &nbsp;
+  <a href="Faceless Void.html"><img src="img/Faceless Void/portrait (1).jpg" alt="Faceless Void" width="100" height="100" class="image-click" title="Faceless Void"></a>
+  &nbsp;
+</div>
+
+<div style="margin: 40px; text-align: center;">
+  <h1><img src="img/int.png" alt="Опис зображення" style="width: 30px; height: auto;"> Інтелект</h1>
+  <a href="Ancient Aparation.html"><img src="img/Aparation/portrait.jpg" alt="Ancient Apparition" width="100" height="100" class="image-click" title="Ancient Apparition"></a>
+  &nbsp;
+  <a href="Cm.html"><img src="img/Cm/portrait (1).jpg" alt="Crystal Maiden" width="100" height="100" class="image-click" title="Crystal Maiden"></a>
+  &nbsp;
+  <a href="Lion.html"><img src="img/lion/portrait.jpg" alt="Lion" width="100" height="100" class="image-click" title="Lion"></a>
+  &nbsp;
+  <a href="SK.html"><img src="img/SK/portrait (1).jpg" alt="Skywrath Mage" width="100" height="100" class="image-click" title="Skywrath Mage"></a>
+  &nbsp;
+</div>
+
+    
+</div>
+</body>
+</html>
